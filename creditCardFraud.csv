@@ -1,0 +1,663 @@
+User,Location,Card Number,Amount,Maximum Amount,Merchant,Transaction Type,Fraudulent
+1,New York,4.93E+15,100,500,Amazon,Online Purchase,0
+1,New York,4.93E+15,150,500,Grocery Store,In-store Purchase,0
+1,New York,4.93E+15,200,500,Gas Station,ATM Withdrawal,0
+1,New York,4.93E+15,450,500,Online Electronics Store,Online Purchase,0
+1,New York,4.93E+15,1000,500,Jewelry Store,In-store Purchase,0
+2,Los Angeles,4.03E+15,80,300,Coffee Shop,In-store Purchase,0
+2,Los Angeles,4.03E+15,120,300,Restaurant,In-store Purchase,0
+2,Los Angeles,4.03E+15,200,300,Gas Station,ATM Withdrawal,0
+2,Los Angeles,4.03E+15,300,300,Electronics Store,In-store Purchase,0
+2,Los Angeles,4.03E+15,320,300,Online Retailer,Online Purchase,1
+3,London,5.21E+15,70,200,Supermarket,In-store Purchase,0
+3,London,5.21E+15,90,200,Clothing Store,In-store Purchase,0
+3,London,5.21E+15,120,200,Gas Station,ATM Withdrawal,0
+3,London,5.21E+15,200,200,Online Retailer,Online Purchase,0
+3,London,5.21E+15,220,200,Electronics Store,In-store Purchase,0
+4,Paris,6.01E+15,150,400,Cafe,In-store Purchase,0
+4,Paris,6.01E+15,180,400,Grocery Store,In-store Purchase,0
+4,Paris,6.01E+15,250,400,Gas Station,ATM Withdrawal,0
+4,Paris,6.01E+15,400,400,Jewelry Store,In-store Purchase,0
+4,Paris,6.01E+15,380,400,Online Retailer,Online Purchase,0
+5,Tokyo,4.92E+15,200,600,Restaurant,In-store Purchase,0
+5,Tokyo,4.92E+15,220,600,Clothing Store,In-store Purchase,0
+5,Tokyo,4.92E+15,300,600,Gas Station,ATM Withdrawal,0
+5,Tokyo,4.92E+15,500,600,Electronics Store,In-store Purchase,0
+5,Tokyo,4.92E+15,550,600,Online Retailer,Online Purchase,0
+6,Sydney,4.92E+15,300,700,Coffee Shop,In-store Purchase,0
+6,Sydney,4.92E+15,320,700,Grocery Store,In-store Purchase,0
+7,Berlin,4.92E+15,80,200,Cafe,In-store Purchase,0
+7,Berlin,4.92E+15,120,200,Grocery Store,In-store Purchase,0
+7,Berlin,4.92E+15,150,200,Gas Station,ATM Withdrawal,0
+7,Berlin,4.92E+15,200,200,Online Retailer,Online Purchase,0
+7,Berlin,4.92E+15,250,200,Electronics Store,In-store Purchase,0
+8,Beijing,4.02E+15,90,300,Coffee Shop,In-store Purchase,0
+8,Beijing,4.02E+15,110,300,Restaurant,In-store Purchase,0
+8,Beijing,4.02E+15,140,300,Gas Station,ATM Withdrawal,0
+8,Beijing,4.02E+15,180,300,Electronics Store,In-store Purchase,0
+8,Beijing,4.02E+15,200,300,Online Retailer,Online Purchase,0
+9,Mumbai,4.92E+15,100,400,Supermarket,In-store Purchase,0
+9,Mumbai,4.92E+15,120,400,Clothing Store,In-store Purchase,0
+9,Mumbai,4.92E+15,150,400,Gas Station,ATM Withdrawal,0
+9,Mumbai,4.92E+15,180,400,Online Retailer,Online Purchase,0
+9,Mumbai,4.92E+15,200,400,Electronics Store,In-store Purchase,0
+10,Moscow,6.01E+15,110,500,Cafe,In-store Purchase,0
+10,Moscow,6.01E+15,130,500,Grocery Store,In-store Purchase,0
+10,Moscow,6.01E+15,160,500,Gas Station,ATM Withdrawal,0
+10,Moscow,6.01E+15,200,500,Electronics Store,In-store Purchase,0
+10,Moscow,6.01E+15,240,500,Online Retailer,Online Purchase,0
+11,Seoul,4.91E+15,120,600,Coffee Shop,In-store Purchase,0
+11,Seoul,4.91E+15,140,600,Restaurant,In-store Purchase,0
+11,Seoul,4.91E+15,170,600,Gas Station,ATM Withdrawal,0
+11,Seoul,4.91E+15,220,600,Electronics Store,In-store Purchase,0
+11,Seoul,4.91E+15,260,600,Online Retailer,Online Purchase,0
+12,Sydney,4.91E+15,130,700,Cafe,In-store Purchase,0
+12,Sydney,4.91E+15,150,700,Grocery Store,In-store Purchase,0
+12,Sydney,4.91E+15,180,700,Gas Station,ATM Withdrawal,0
+13,Madrid,4.93E+15,140,800,Coffee Shop,In-store Purchase,0
+13,Madrid,4.93E+15,160,800,Grocery Store,In-store Purchase,0
+13,Madrid,4.93E+15,190,800,Gas Station,ATM Withdrawal,0
+13,Madrid,4.93E+15,230,800,Electronics Store,In-store Purchase,0
+13,Madrid,4.93E+15,270,800,Online Retailer,Online Purchase,0
+14,Rome,4.91E+15,150,900,Cafe,In-store Purchase,0
+14,Rome,4.91E+15,170,900,Grocery Store,In-store Purchase,0
+14,Rome,4.91E+15,200,900,Gas Station,ATM Withdrawal,0
+14,Rome,4.91E+15,240,900,Electronics Store,In-store Purchase,0
+14,Rome,4.91E+15,280,900,Online Retailer,Online Purchase,0
+15,Buenos Aires,4.02E+15,160,1000,Coffee Shop,In-store Purchase,0
+15,Buenos Aires,4.02E+15,180,1000,Restaurant,In-store Purchase,0
+15,Buenos Aires,4.02E+15,210,1000,Gas Station,ATM Withdrawal,0
+15,Buenos Aires,4.02E+15,250,1000,Electronics Store,In-store Purchase,0
+15,Buenos Aires,4.02E+15,290,1000,Online Retailer,Online Purchase,0
+16,Cape Town,5.21E+15,170,1100,Supermarket,In-store Purchase,0
+16,Cape Town,5.21E+15,190,1100,Clothing Store,In-store Purchase,0
+16,Cape Town,5.21E+15,220,1100,Gas Station,ATM Withdrawal,0
+16,Cape Town,5.21E+15,260,1100,Online Retailer,Online Purchase,0
+16,Cape Town,5.21E+15,300,1100,Electronics Store,In-store Purchase,0
+17,Toronto,6.01E+15,180,1200,Cafe,In-store Purchase,0
+17,Toronto,6.01E+15,200,1200,Grocery Store,In-store Purchase,0
+17,Toronto,6.01E+15,230,1200,Gas Station,ATM Withdrawal,0
+17,Toronto,6.01E+15,270,1200,Electronics Store,In-store Purchase,0
+17,Toronto,6.01E+15,310,1200,Online Retailer,Online Purchase,0
+18,Dubai,4.91E+15,190,1300,Coffee Shop,In-store Purchase,0
+18,Dubai,4.91E+15,210,1300,Restaurant,In-store Purchase,0
+19,Paris,4.92E+15,600,1500,Electronics Store,In-store Purchase,0
+20,London,4.92E+15,500,1600,Online Retailer,Online Purchase,0
+21,New York,4.93E+15,400,1700,Gas Station,ATM Withdrawal,0
+22,Tokyo,4.93E+15,300,1800,Cafe,In-store Purchase,0
+23,Berlin,4.03E+15,200,1900,Grocery Store,In-store Purchase,0
+24,Moscow,4.03E+15,100,2000,Restaurant,In-store Purchase,0
+25,Sydney,4.03E+15,150,2100,Gas Station,ATM Withdrawal,0
+26,Madrid,4.93E+15,250,2200,Online Retailer,Online Purchase,0
+27,Rome,4.91E+15,350,2300,Electronics Store,In-store Purchase,0
+28,Buenos Aires,4.91E+15,450,2400,Coffee Shop,In-store Purchase,0
+29,Cape Town,4.92E+15,550,2500,Grocery Store,In-store Purchase,0
+30,Toronto,4.92E+15,650,2600,Gas Station,ATM Withdrawal,0
+31,Dubai,4.92E+15,750,2700,Online Retailer,Online Purchase,0
+32,Paris,4.92E+15,850,2800,Electronics Store,In-store Purchase,0
+33,London,4.92E+15,950,2900,Cafe,In-store Purchase,0
+34,New York,4.03E+15,1050,3000,Grocery Store,In-store Purchase,0
+35,Tokyo,4.03E+15,1150,3100,Gas Station,ATM Withdrawal,0
+36,Berlin,4.03E+15,1250,3200,Online Retailer,Online Purchase,0
+37,Moscow,6.01E+15,1350,3300,Electronics Store,In-store Purchase,0
+38,Sydney,6.01E+15,1450,3400,Coffee Shop,In-store Purchase,0
+39,Madrid,6.01E+15,1550,3500,Grocery Store,In-store Purchase,0
+40,Rome,6.01E+15,1650,3600,Gas Station,ATM Withdrawal,0
+41,Buenos Aires,6.02E+15,1750,3700,Online Retailer,Online Purchase,0
+42,Cape Town,6.02E+15,1850,3800,Electronics Store,In-store Purchase,0
+43,Toronto,6.02E+15,1950,3900,Cafe,In-store Purchase,0
+44,Dubai,6.02E+15,2050,4000,Grocery Store,In-store Purchase,0
+45,Paris,6.02E+15,2150,4100,Gas Station,ATM Withdrawal,0
+47,Unknown,0,5000,5231,Scam Website,Online Purchase,1
+48,Unknown,1.11E+15,3500,5231,Fraudulent Business,In-store Purchase,1
+49,Unknown,2.22E+15,2800,5231,Phishing Scheme,Online Purchase,1
+50,Unknown,3.33E+15,4100,5231,Bogus Charity,Donation,1
+51,Unknown,4.44E+15,5900,5231,Fake Investment Scheme,Online Purchase,1
+52,Unknown,5.56E+15,700,5231,Non-existent Store,In-store Purchase,1
+53,Unknown,6.67E+15,850,5231,Unauthorized Vendor,In-store Purchase,1
+54,Unknown,7.78E+15,920,5231,Phony Service Provider,Online Purchase,1
+55,Unknown,8.89E+15,1100,5231,Fraudulent Lottery,Gambling,1
+56,Unknown,1.00E+16,1300,5231,Scam Call,Fraud,1
+57,Unknown,1.23E+15,1800,5231,Fake Prize,Scam,1
+58,Unknown,2.35E+15,2000,5231,Ponzi Scheme,Investment,1
+59,Unknown,3.46E+15,2400,5231,Counterfeit Goods,In-store Purchase,1
+60,Unknown,4.57E+15,2800,5231,Fake Credentials,Fraud,1
+61,Unknown,5.68E+15,3100,5231,Identity Theft,Fraud,1
+62,Unknown,6.79E+15,3500,5231,Phishing Email,Fraud,1
+63,Unknown,7.89E+15,3900,5231,Fake Check,Fraud,1
+64,Unknown,8.90E+15,4100,5231,Deceptive Advertising,Fraud,1
+65,Unknown,9.01E+15,4700,5231,Phony Investment,Scam,1
+66,Unknown,1.23E+14,5000,5231,Fake Prescription,Fraud,1
+67,Unknown,1.23E+15,5500,5231,False Advertising,Fraud,1
+68,Unknown,2.35E+15,5900,5231,Sham Auction,Fraud,1
+69,Unknown,3.46E+15,6100,5231,Malware Download,Fraud,1
+70,Unknown,4.57E+15,6500,5231,Counterfeit Software,Fraud,1
+71,Unknown,5.68E+15,7000,5231,Fraudulent Subscription,Fraud,1
+73,New York,4.92E+15,150,1000,Coffee Shop,In-store Purchase,0
+74,Tokyo,4.92E+15,200,2000,Grocery Store,In-store Purchase,0
+75,London,4.93E+15,250,3000,Gas Station,ATM Withdrawal,0
+76,Paris,4.93E+15,300,4000,Electronics Store,In-store Purchase,0
+77,Sydney,4.93E+15,350,5000,Online Retailer,Online Purchase,0
+78,Mumbai,4.93E+15,400,6000,Cafe,In-store Purchase,0
+79,Cape Town,4.93E+15,450,7000,Restaurant,In-store Purchase,0
+80,Beijing,4.02E+15,500,8000,Gas Station,ATM Withdrawal,0
+81,Moscow,4.02E+15,550,9000,Electronics Store,In-store Purchase,0
+82,Buenos Aires,4.03E+15,600,10000,Online Retailer,Online Purchase,0
+83,Toronto,4.03E+15,650,11000,Electronics Store,In-store Purchase,0
+84,Dubai,4.03E+15,700,12000,Coffee Shop,In-store Purchase,0
+85,Berlin,4.03E+15,750,13000,Grocery Store,In-store Purchase,0
+86,Seoul,4.03E+15,800,14000,Gas Station,ATM Withdrawal,0
+87,Paris,4.03E+15,850,15000,Electronics Store,In-store Purchase,0
+88,London,4.03E+15,900,16000,Cafe,In-store Purchase,0
+89,New York,4.03E+15,950,17000,Grocery Store,In-store Purchase,0
+90,Tokyo,4.03E+15,1000,18000,Gas Station,ATM Withdrawal,0
+91,Sydney,4.03E+15,1050,19000,Electronics Store,In-store Purchase,0
+92,Mumbai,4.04E+15,1100,20000,Online Retailer,Online Purchase,0
+93,Cape Town,4.04E+15,1150,21000,Electronics Store,In-store Purchase,0
+94,Beijing,4.04E+15,1200,22000,Cafe,In-store Purchase,0
+95,Moscow,4.04E+15,1250,23000,Restaurant,In-store Purchase,0
+96,Buenos Aires,4.04E+15,1300,24000,Gas Station,ATM Withdrawal,0
+97,Toronto,4.04E+15,1350,25000,Electronics Store,In-store Purchase,0
+98,Dubai,4.04E+15,1400,26000,Coffee Shop,In-store Purchase,0
+99,Berlin,4.04E+15,1450,27000,Grocery Store,In-store Purchase,0
+100,Unknown,1.11E+15,750,10000,Fraudulent Website,Online Purchase,1
+101,Unknown,2.22E+15,800,11000,Phishing Scam,Fraud,1
+102,Unknown,3.33E+15,850,12000,Bogus Charity,Donation,1
+103,Unknown,4.44E+15,900,13000,Fake Investment Scheme,Online Purchase,1
+104,Unknown,5.56E+15,950,14000,Phony Service Provider,Online Purchase,1
+105,Unknown,6.67E+15,1000,15000,Fake Lottery,Gambling,1
+106,Unknown,7.78E+15,1050,16000,Scam Call,Fraud,1
+107,Unknown,8.89E+15,1100,17000,Fake Prize,Scam,1
+108,Unknown,1.23E+15,1150,18000,Ponzi Scheme,Investment,1
+109,Unknown,2.35E+15,1200,19000,Counterfeit Goods,In-store Purchase,1
+110,Unknown,3.46E+15,1250,20000,Fake Credentials,Fraud,1
+111,Unknown,4.57E+15,1300,21000,Identity Theft,Fraud,1
+112,Unknown,5.68E+15,1350,22000,Phishing Email,Fraud,1
+113,Unknown,6.79E+15,1400,23000,Fake Check,Fraud,1
+114,Unknown,7.89E+15,1450,24000,Deceptive Advertising,Fraud,1
+115,Unknown,8.90E+15,1500,25000,Phony Investment,Scam,1
+116,Unknown,9.01E+15,1550,26000,Fake Prescription,Fraud,1
+117,Unknown,1.23E+14,1600,27000,False Advertising,Fraud,1
+118,Unknown,1.23E+15,1650,28000,Sham Auction,Fraud,1
+119,Unknown,2.35E+15,1700,29000,Malware Download,Fraud,1
+120,Unknown,3.46E+15,1750,30000,Counterfeit Software,Fraud,1
+121,Unknown,4.57E+15,1800,31000,Fraudulent Subscription,Fraud,1
+122,Unknown,5.68E+15,1850,32000,Fake Investment,Scam,1
+123,Unknown,6.79E+15,1900,33000,Phishing Attack,Fraud,1
+124,Unknown,7.89E+15,1950,34000,Scam Phone Call,Fraud,1
+125,Unknown,8.90E+15,2000,35000,False Advertisement,Fraud,1
+126,Unknown,9.01E+15,2050,36000,Fake Invoice,Fraud,1
+127,Sydney,4.92E+15,230,2500,Clothing Store,In-store Purchase,0
+128,Los Angeles,4.03E+15,120,1500,Restaurant,In-store Purchase,0
+129,Toronto,6.01E+15,270,4000,Gas Station,ATM Withdrawal,0
+130,Paris,6.01E+15,320,4500,Cafe,In-store Purchase,0
+131,Mumbai,4.92E+15,180,3500,Supermarket,In-store Purchase,0
+132,Beijing,4.02E+15,220,3800,Electronics Store,In-store Purchase,0
+133,London,5.21E+15,190,3000,Clothing Store,In-store Purchase,0
+134,Tokyo,4.92E+15,320,4300,Restaurant,In-store Purchase,0
+135,Berlin,4.92E+15,250,4200,Online Retailer,Online Purchase,0
+136,New York,4.03E+15,350,4800,Grocery Store,In-store Purchase,0
+137,Moscow,6.01E+15,400,5300,Electronics Store,In-store Purchase,0
+138,Sydney,4.92E+15,300,4700,Gas Station,ATM Withdrawal,0
+139,Seoul,4.91E+15,220,3400,Coffee Shop,In-store Purchase,0
+140,Beijing,4.02E+15,400,5500,Restaurant,In-store Purchase,0
+141,Mumbai,4.92E+15,230,3600,Clothing Store,In-store Purchase,0
+142,Los Angeles,4.03E+15,150,2200,Coffee Shop,In-store Purchase,0
+143,Paris,6.01E+15,380,5600,Grocery Store,In-store Purchase,0
+144,Berlin,4.92E+15,280,4900,Electronics Store,In-store Purchase,0
+145,Tokyo,4.92E+15,350,5100,Cafe,In-store Purchase,0
+146,Toronto,6.01E+15,310,4700,Online Retailer,Online Purchase,0
+147,London,5.21E+15,220,3600,Supermarket,In-store Purchase,0
+148,Sydney,4.92E+15,260,4400,Gas Station,ATM Withdrawal,0
+149,New York,4.93E+15,500,6000,Gas Station,ATM Withdrawal,0
+150,Mumbai,4.92E+15,270,4100,Electronics Store,In-store Purchase,0
+151,Tokyo,4.92E+15,370,5200,Online Retailer,Online Purchase,0
+152,Seoul,4.91E+15,240,3800,Restaurant,In-store Purchase,0
+153,Beijing,4.02E+15,450,5700,Gas Station,ATM Withdrawal,0
+154,Los Angeles,4.03E+15,170,2400,Electronics Store,In-store Purchase,0
+155,Moscow,6.01E+15,430,5800,Online Retailer,Online Purchase,0
+156,Paris,6.01E+15,420,5700,Cafe,In-store Purchase,0
+157,Berlin,4.92E+15,300,5000,Grocery Store,In-store Purchase,0
+158,London,5.21E+15,230,3700,Clothing Store,In-store Purchase,0
+159,Sydney,4.92E+15,280,4600,Coffee Shop,In-store Purchase,0
+160,New York,4.03E+15,400,5500,Grocery Store,In-store Purchase,0
+161,Mumbai,4.92E+15,320,4900,Online Retailer,Online Purchase,0
+162,Tokyo,4.92E+15,390,5400,Electronics Store,In-store Purchase,0
+163,Toronto,6.01E+15,350,5100,Cafe,In-store Purchase,0
+164,Paris,6.01E+15,450,6000,Grocery Store,In-store Purchase,0
+165,Berlin,4.92E+15,320,5100,Electronics Store,In-store Purchase,0
+166,London,5.21E+15,240,4000,Supermarket,In-store Purchase,0
+167,Sydney,4.92E+15,310,4800,Gas Station,ATM Withdrawal,0
+168,New York,4.93E+15,550,6500,Clothing Store,In-store Purchase,0
+169,Mumbai,4.92E+15,350,5000,Cafe,In-store Purchase,0
+170,Tokyo,4.92E+15,420,5700,Restaurant,In-store Purchase,0
+171,Seoul,4.91E+15,260,4000,Gas Station,ATM Withdrawal,0
+172,Beijing,4.02E+15,480,5900,Electronics Store,In-store Purchase,0
+173,Los Angeles,4.03E+15,200,2800,Coffee Shop,In-store Purchase,0
+174,Moscow,6.01E+15,460,6100,Online Retailer,Online Purchase,0
+175,Paris,6.01E+15,470,6200,Cafe,In-store Purchase,0
+176,Berlin,4.92E+15,340,5200,Grocery Store,In-store Purchase,0
+177,London,5.21E+15,250,4100,Clothing Store,In-store Purchase,0
+178,Sydney,4.92E+15,320,4900,Coffee Shop,In-store Purchase,0
+179,New York,4.03E+15,420,5700,Grocery Store,In-store Purchase,0
+180,Mumbai,4.92E+15,350,5100,Online Retailer,Online Purchase,0
+181,Tokyo,4.92E+15,430,5800,Electronics Store,In-store Purchase,0
+182,Toronto,6.01E+15,370,5400,Cafe,In-store Purchase,0
+183,Paris,6.01E+15,480,6200,Grocery Store,In-store Purchase,0
+184,Berlin,4.92E+15,350,5300,Electronics Store,In-store Purchase,0
+185,London,5.21E+15,270,4200,Supermarket,In-store Purchase,0
+186,Sydney,4.92E+15,330,5000,Gas Station,ATM Withdrawal,0
+187,New York,4.93E+15,570,6700,Clothing Store,In-store Purchase,0
+188,Mumbai,4.92E+15,370,5300,Cafe,In-store Purchase,0
+189,Tokyo,4.92E+15,450,6000,Restaurant,In-store Purchase,0
+190,Seoul,4.91E+15,280,4200,Gas Station,ATM Withdrawal,0
+191,Beijing,4.02E+15,500,6100,Electronics Store,In-store Purchase,0
+192,Los Angeles,4.03E+15,220,3000,Coffee Shop,In-store Purchase,0
+193,Moscow,6.01E+15,490,6200,Online Retailer,Online Purchase,0
+194,Paris,6.01E+15,490,6300,Cafe,In-store Purchase,0
+195,Berlin,4.92E+15,360,5400,Grocery Store,In-store Purchase,0
+196,London,5.21E+15,280,4300,Clothing Store,In-store Purchase,0
+197,Sydney,4.92E+15,340,5100,Coffee Shop,In-store Purchase,0
+198,New York,4.03E+15,450,5900,Grocery Store,In-store Purchase,0
+199,Mumbai,4.92E+15,380,5500,Online Retailer,Online Purchase,0
+200,Tokyo,4.92E+15,460,6200,Electronics Store,In-store Purchase,0
+201,Unknown,1.11E+15,5000,5231,Scam Website,Online Purchase,1
+202,Unknown,2.22E+15,3500,5231,Fraudulent Business,In-store Purchase,1
+203,Unknown,3.33E+15,4100,5231,Bogus Charity,Donation,1
+204,Unknown,4.44E+15,5900,5231,Fake Investment Scheme,Online Purchase,1
+205,Unknown,5.56E+15,700,5231,Non-existent Store,In-store Purchase,1
+206,Unknown,6.67E+15,850,5231,Unauthorized Vendor,In-store Purchase,1
+207,Unknown,7.78E+15,920,5231,Phony Service Provider,Online Purchase,1
+208,Unknown,8.89E+15,1100,5231,Fraudulent Lottery,Gambling,1
+209,Unknown,1.00E+16,1300,5231,Scam Call,Fraud,1
+210,Unknown,1.23E+15,1800,5231,Fake Prize,Scam,1
+211,Unknown,2.35E+15,2000,5231,Ponzi Scheme,Investment,1
+212,Unknown,3.46E+15,2400,5231,Counterfeit Goods,In-store Purchase,1
+213,Unknown,4.57E+15,2800,5231,Fake Credentials,Fraud,1
+214,Unknown,5.68E+15,3100,5231,Identity Theft,Fraud,1
+215,Unknown,6.79E+15,3500,5231,Phishing Email,Fraud,1
+216,Unknown,7.89E+15,3900,5231,Fake Check,Fraud,1
+217,Unknown,8.90E+15,4100,5231,Deceptive Advertising,Fraud,1
+218,Unknown,9.01E+15,4700,5231,Phony Investment,Scam,1
+219,Unknown,1.23E+14,5000,5231,Fake Prescription,Fraud,1
+220,Unknown,1.23E+15,5500,5231,False Advertising,Fraud,1
+221,Unknown,2.35E+15,5900,5231,Sham Auction,Fraud,1
+222,Unknown,3.46E+15,6100,5231,Malware Download,Fraud,1
+223,Unknown,4.57E+15,6500,5231,Counterfeit Software,Fraud,1
+224,Unknown,5.68E+15,7000,5231,Fraudulent Subscription,Fraud,1
+225,Unknown,6.79E+15,7500,5231,Fake Investment,Scam,1
+226,Unknown,7.89E+15,8000,5231,Phishing Attack,Fraud,1
+227,Unknown,8.90E+15,8500,5231,Scam Phone Call,Fraud,1
+228,Unknown,9.01E+15,9000,5231,False Advertisement,Fraud,1
+229,Unknown,1.23E+14,9500,5231,Fake Invoice,Fraud,1
+230,Unknown,1.23E+15,10000,5231,Phishing Scam,Fraud,1
+231,Unknown,2.35E+15,10500,5231,Bogus Charity,Donation,1
+232,Unknown,3.46E+15,11000,5231,Fake Investment Scheme,Online Purchase,1
+233,Unknown,4.57E+15,11500,5231,Phony Service Provider,Online Purchase,1
+234,Unknown,5.68E+15,12000,5231,Fake Lottery,Gambling,1
+235,Unknown,6.79E+15,12500,5231,Scam Call,Fraud,1
+236,Unknown,7.89E+15,13000,5231,Fake Prize,Scam,1
+237,Unknown,8.90E+15,13500,5231,Ponzi Scheme,Investment,1
+238,Unknown,9.01E+15,14000,5231,Counterfeit Goods,In-store Purchase,1
+239,Unknown,1.23E+14,14500,5231,Fake Credentials,Fraud,1
+240,Unknown,1.23E+15,15000,5231,Identity Theft,Fraud,1
+241,Unknown,2.35E+15,15500,5231,Phishing Email,Fraud,1
+242,Unknown,3.46E+15,16000,5231,Fake Check,Fraud,1
+243,Unknown,4.57E+15,16500,5231,Deceptive Advertising,Fraud,1
+244,Unknown,5.68E+15,17000,5231,Phony Investment,Scam,1
+245,Unknown,6.79E+15,17500,5231,Fake Prescription,Fraud,1
+246,Unknown,7.89E+15,18000,5231,False Advertising,Fraud,1
+247,Unknown,8.90E+15,18500,5231,Sham Auction,Fraud,1
+248,Unknown,9.01E+15,19000,5231,Malware Download,Fraud,1
+249,Unknown,1.23E+14,19500,5231,Counterfeit Software,Fraud,1
+250,Unknown,1.23E+15,20000,5231,Fraudulent Subscription,Fraud,1
+251,Unknown,2.35E+15,20500,5231,Fake Investment,Scam,1
+252,Unknown,3.46E+15,21000,5231,Phishing Attack,Fraud,1
+253,Unknown,4.57E+15,21500,5231,Scam Phone Call,Fraud,1
+254,Unknown,5.68E+15,22000,5231,False Advertisement,Fraud,1
+255,Unknown,6.79E+15,22500,5231,Fake Invoice,Fraud,1
+256,Unknown,7.89E+15,23000,5231,Phishing Scam,Fraud,1
+257,Unknown,8.90E+15,23500,5231,Bogus Charity,Donation,1
+258,Unknown,9.01E+15,24000,5231,Fake Investment Scheme,Online Purchase,1
+259,Unknown,1.23E+14,24500,5231,Phony Service Provider,Online Purchase,1
+260,Unknown,1.23E+15,25000,5231,Fake Lottery,Gambling,1
+261,Unknown,2.35E+15,25500,5231,Scam Call,Fraud,1
+262,Unknown,3.46E+15,26000,5231,Fake Prize,Scam,1
+263,Unknown,4.57E+15,26500,5231,Ponzi Scheme,Investment,1
+264,Unknown,5.68E+15,27000,5231,Counterfeit Goods,In-store Purchase,1
+265,Unknown,6.79E+15,27500,5231,Fake Credentials,Fraud,1
+266,Unknown,7.89E+15,28000,5231,Identity Theft,Fraud,1
+267,Unknown,8.90E+15,28500,5231,Phishing Email,Fraud,1
+268,Unknown,9.01E+15,29000,5231,Fake Check,Fraud,1
+269,Unknown,1.23E+14,29500,5231,Deceptive Advertising,Fraud,1
+270,Unknown,1.23E+15,30000,5231,Phony Investment,Scam,1
+271,Unknown,2.35E+15,30500,5231,Fake Prescription,Fraud,1
+272,Unknown,3.46E+15,31000,5231,False Advertising,Fraud,1
+273,Unknown,4.57E+15,31500,5231,Sham Auction,Fraud,1
+274,Unknown,5.68E+15,32000,5231,Malware Download,Fraud,1
+275,Unknown,6.79E+15,32500,5231,Counterfeit Software,Fraud,1
+276,Unknown,7.89E+15,33000,5231,Fraudulent Subscription,Fraud,1
+277,Unknown,8.90E+15,33500,5231,Fake Investment,Scam,1
+278,Unknown,9.01E+15,34000,5231,Phishing Attack,Fraud,1
+279,Unknown,1.23E+14,34500,5231,Scam Phone Call,Fraud,1
+280,Unknown,1.23E+15,35000,5231,False Advertisement,Fraud,1
+281,Unknown,2.35E+15,35500,5231,Fake Invoice,Fraud,1
+282,Unknown,3.46E+15,36000,5231,Phishing Scam,Fraud,1
+283,Unknown,4.57E+15,36500,5231,Bogus Charity,Donation,1
+284,Unknown,5.68E+15,37000,5231,Fake Investment Scheme,Online Purchase,1
+285,Unknown,6.79E+15,37500,5231,Phony Service Provider,Online Purchase,1
+286,Unknown,7.89E+15,38000,5231,Fake Lottery,Gambling,1
+287,Unknown,8.90E+15,38500,5231,Scam Call,Fraud,1
+288,Unknown,9.01E+15,39000,5231,Fake Prize,Scam,1
+289,Unknown,1.23E+14,39500,5231,Ponzi Scheme,Investment,1
+290,Unknown,1.23E+15,40000,5231,Counterfeit Goods,In-store Purchase,1
+291,Unknown,2.35E+15,40500,5231,Fake Credentials,Fraud,1
+292,Unknown,3.46E+15,41000,5231,Identity Theft,Fraud,1
+293,Unknown,4.57E+15,41500,5231,Phishing Email,Fraud,1
+294,Unknown,5.68E+15,42000,5231,Fake Check,Fraud,1
+295,Unknown,6.79E+15,42500,5231,Deceptive Advertising,Fraud,1
+296,Unknown,7.89E+15,43000,5231,Phony Investment,Scam,1
+297,Unknown,8.90E+15,43500,5231,Fake Prescription,Fraud,1
+298,Unknown,9.01E+15,44000,5231,False Advertising,Fraud,1
+299,Unknown,1.23E+14,44500,5231,Sham Auction,Fraud,1
+300,Unknown,1.23E+15,45000,5231,Malware Download,Fraud,1
+301,London,1.23E+15,2500,1234,Grocery Store,In-store Purchase,0
+302,Los Angeles,9.88E+15,1500,5678,Restaurant,In-store Purchase,0
+303,Mumbai,4.57E+15,1800,9012,Online Retailer,Online Purchase,0
+304,Unknown,6.54E+15,3000,3456,Clothing Store,In-store Purchase,0
+305,Los Angeles,3.21E+15,1200,7890,Pharmacy,In-store Purchase,0
+306,Tokyo,7.89E+15,2000,2345,Electronics Store,In-store Purchase,0
+307,Toronto,9.01E+15,2800,6789,Bookstore,In-store Purchase,0
+308,Sydney,2.35E+15,3500,1234,Online Retailer,Online Purchase,0
+309,Beijing,8.90E+15,4000,5678,Supermarket,In-store Purchase,0
+310,Moscow,5.68E+15,2200,9012,Restaurant,In-store Purchase,0
+311,Moscow,1.23E+14,2700,3456,Department Store,In-store Purchase,0
+312,Paris,7.89E+15,3200,7890,Coffee Shop,In-store Purchase,0
+313,London,3.46E+15,1900,2345,Online Retailer,Online Purchase,0
+314,Mumbai,9.01E+15,2800,6789,Clothing Store,In-store Purchase,0
+315,New York,6.79E+15,1500,1234,Grocery Store,In-store Purchase,0
+316,Beijing,4.57E+15,2100,5678,Pharmacy,In-store Purchase,0
+317,Unknown,2.35E+15,2900,9012,Bookstore,In-store Purchase,0
+318,Toronto,7.89E+15,3800,3456,Online Retailer,Online Purchase,0
+319,Sydney,3.46E+15,2600,7890,Supermarket,In-store Purchase,0
+320,Beijing,9.01E+15,4200,2345,Restaurant,In-store Purchase,0
+321,Moscow,6.79E+15,2300,6789,Electronics Store,In-store Purchase,0
+322,Moscow,4.57E+15,3300,1234,Clothing Store,In-store Purchase,0
+323,Paris,1.23E+15,3700,5678,Coffee Shop,In-store Purchase,0
+324,London,8.90E+15,2600,9012,Online Retailer,Online Purchase,0
+325,Mumbai,2.35E+15,2900,3456,Grocery Store,In-store Purchase,0
+326,New York,9.01E+15,4100,7890,Pharmacy,In-store Purchase,0
+327,Beijing,6.79E+15,1800,2345,Bookstore,In-store Purchase,0
+328,Paris,3.46E+15,2400,6789,Online Retailer,Online Purchase,0
+329,Tokyo,9.01E+15,3800,1234,Supermarket,In-store Purchase,0
+330,London,5.68E+15,2000,5678,Restaurant,In-store Purchase,0
+331,Unknown,1.11E+15,5000,5231,Scam Website,Online Purchase,1
+332,Unknown,2.22E+15,3500,5231,Fraudulent Business,In-store Purchase,1
+333,Unknown,3.33E+15,4100,5231,Bogus Charity,Donation,1
+334,Unknown,4.44E+15,5900,5231,Fake Investment Scheme,Online Purchase,1
+335,Unknown,5.56E+15,700,5231,Non-existent Store,In-store Purchase,1
+336,Unknown,6.67E+15,850,5231,Unauthorized Vendor,In-store Purchase,1
+337,Unknown,7.78E+15,920,5231,Phony Service Provider,Online Purchase,1
+338,Unknown,8.89E+15,1100,5231,Fraudulent Lottery,Gambling,1
+339,Unknown,1.00E+16,1300,5231,Scam Call,Fraud,1
+340,Unknown,1.23E+15,1800,5231,Fake Prize,Scam,1
+341,Unknown,2.35E+15,2000,5231,Ponzi Scheme,Investment,1
+342,Unknown,3.46E+15,2400,5231,Counterfeit Goods,In-store Purchase,1
+343,Unknown,4.57E+15,2800,5231,Fake Credentials,Fraud,1
+344,Unknown,5.68E+15,3100,5231,Identity Theft,Fraud,1
+345,Unknown,6.79E+15,3500,5231,Phishing Email,Fraud,1
+346,Unknown,7.89E+15,3900,5231,Fake Check,Fraud,1
+347,Unknown,8.90E+15,4100,5231,Deceptive Advertising,Fraud,1
+348,Unknown,9.01E+15,4700,5231,Phony Investment,Scam,1
+349,Unknown,1.23E+14,5000,5231,Fake Prescription,Fraud,1
+350,Unknown,1.23E+15,5500,5231,False Advertising,Fraud,1
+351,Buenos Aires,60200000000,2000,3700,Online Retailer,Online Purchase,1
+352,Cape Town,60200000000,2001,3701,Electronics Store,In-store Purchase,1
+353,Toronto,60200000000,2002,3702,Cafe,In-store Purchase,1
+354,Dubai,60200000000,2003,3703,Grocery Store,In-store Purchase,1
+355,Paris,60200000000,2004,3704,Gas Station,ATM Withdrawal,1
+356,Unknown,0,2005,3705,Scam Website,Online Purchase,1
+357,Buenos Aires,60200000000,2006,3706,Online Retailer,Online Purchase,1
+358,Cape Town,60200000000,2007,3707,Electronics Store,In-store Purchase,1
+359,Toronto,60200000000,2008,3708,Cafe,In-store Purchase,1
+360,Dubai,60200000000,2009,3709,Grocery Store,In-store Purchase,1
+361,Paris,60200000000,2010,3710,Gas Station,ATM Withdrawal,1
+362,Unknown,0,2011,3711,Scam Website,Online Purchase,1
+363,Buenos Aires,60200000000,2012,3712,Online Retailer,Online Purchase,1
+364,Cape Town,60200000000,2013,3713,Electronics Store,In-store Purchase,1
+365,Toronto,60200000000,2014,3714,Cafe,In-store Purchase,1
+366,Dubai,60200000000,2015,3715,Grocery Store,In-store Purchase,1
+367,Paris,60200000000,2016,3716,Gas Station,ATM Withdrawal,1
+368,Unknown,0,2017,3717,Scam Website,Online Purchase,1
+369,Buenos Aires,60200000000,2018,3718,Online Retailer,Online Purchase,1
+370,Cape Town,60200000000,2019,3719,Electronics Store,In-store Purchase,1
+371,Toronto,60200000000,2020,3720,Cafe,In-store Purchase,1
+372,Dubai,60200000000,2021,3721,Grocery Store,In-store Purchase,1
+373,Paris,60200000000,2022,3722,Gas Station,ATM Withdrawal,1
+374,Unknown,0,2023,3723,Scam Website,Online Purchase,1
+375,Buenos Aires,60200000000,2024,3724,Online Retailer,Online Purchase,1
+376,Cape Town,60200000000,2025,3725,Electronics Store,In-store Purchase,1
+377,Toronto,60200000000,2026,3726,Cafe,In-store Purchase,1
+378,Dubai,60200000000,2027,3727,Grocery Store,In-store Purchase,1
+379,Paris,60200000000,2028,3728,Gas Station,ATM Withdrawal,1
+380,Unknown,0,2029,3729,Scam Website,Online Purchase,1
+381,Buenos Aires,60200000000,2030,3730,Online Retailer,Online Purchase,1
+382,Cape Town,60200000000,2031,3731,Electronics Store,In-store Purchase,1
+383,Toronto,60200000000,2032,3732,Cafe,In-store Purchase,1
+384,Dubai,60200000000,2033,3733,Grocery Store,In-store Purchase,1
+385,Paris,60200000000,2034,3734,Gas Station,ATM Withdrawal,1
+386,Unknown,0,2035,3735,Scam Website,Online Purchase,1
+387,Buenos Aires,60200000000,2036,3736,Online Retailer,Online Purchase,1
+388,Cape Town,60200000000,2037,3737,Electronics Store,In-store Purchase,1
+389,Toronto,60200000000,2038,3738,Cafe,In-store Purchase,1
+390,Dubai,60200000000,2039,3739,Grocery Store,In-store Purchase,1
+391,Paris,60200000000,2040,3740,Gas Station,ATM Withdrawal,1
+392,Unknown,0,2041,3741,Scam Website,Online Purchase,1
+393,Buenos Aires,60200000000,2042,3742,Online Retailer,Online Purchase,1
+394,Cape Town,60200000000,2043,3743,Electronics Store,In-store Purchase,1
+395,Toronto,60200000000,2044,3744,Cafe,In-store Purchase,1
+396,Dubai,60200000000,2045,3745,Grocery Store,In-store Purchase,1
+397,Paris,60200000000,2046,3746,Gas Station,ATM Withdrawal,1
+398,Unknown,0,2047,3747,Scam Website,Online Purchase,1
+399,Buenos Aires,60200000000,2048,3748,Online Retailer,Online Purchase,1
+400,Cape Town,60200000000,2049,3749,Electronics Store,In-store Purchase,1
+401,Toronto,60200000000,2050,3750,Cafe,In-store Purchase,1
+402,Dubai,60200000000,2051,3751,Grocery Store,In-store Purchase,1
+403,Paris,60200000000,2052,3752,Gas Station,ATM Withdrawal,1
+404,Unknown,0,2053,3753,Scam Website,Online Purchase,1
+405,Buenos Aires,60200000000,2054,3754,Online Retailer,Online Purchase,1
+406,Cape Town,60200000000,2055,3755,Electronics Store,In-store Purchase,1
+407,Toronto,60200000000,2056,3756,Cafe,In-store Purchase,1
+408,Dubai,60200000000,2057,3757,Grocery Store,In-store Purchase,1
+409,Paris,60200000000,2058,3758,Gas Station,ATM Withdrawal,1
+410,Unknown,0,2059,3759,Scam Website,Online Purchase,1
+411,Unknown,60200000000,2060,3760,Online Retailer,Online Purchase,1
+412,Unknown,60200000000,2061,3761,Electronics Store,In-store Purchase,1
+413,Unknown,60200000000,2062,3762,Cafe,In-store Purchase,1
+414,Unknown,60200000000,2063,3763,Grocery Store,In-store Purchase,1
+415,Unknown,60200000000,2064,3764,Gas Station,ATM Withdrawal,1
+416,Unknown,0,2065,3765,Scam Website,Online Purchase,1
+417,Unknown,60200000000,2066,3766,Online Retailer,Online Purchase,1
+418,Unknown,60200000000,2067,3767,Electronics Store,In-store Purchase,1
+419,Unknown,60200000000,2068,3768,Cafe,In-store Purchase,1
+420,Unknown,60200000000,2069,3769,Grocery Store,In-store Purchase,1
+421,Unknown,60200000000,2070,3770,Gas Station,ATM Withdrawal,1
+422,Unknown,0,2071,3771,Scam Website,Online Purchase,1
+423,Unknown,60200000000,2072,3772,Online Retailer,Online Purchase,1
+424,Unknown,60200000000,2073,3773,Electronics Store,In-store Purchase,1
+425,Unknown,60200000000,2074,3774,Cafe,In-store Purchase,1
+426,Unknown,60200000000,2075,3775,Grocery Store,In-store Purchase,1
+427,Unknown,60200000000,2076,3776,Gas Station,ATM Withdrawal,1
+428,Unknown,0,2077,3777,Scam Website,Online Purchase,1
+429,Unknown,60200000000,2078,3778,Online Retailer,Online Purchase,1
+430,Unknown,60200000000,2079,3779,Electronics Store,In-store Purchase,1
+431,Unknown,60200000000,2080,3780,Cafe,In-store Purchase,1
+432,Unknown,60200000000,2081,3781,Grocery Store,In-store Purchase,1
+433,Unknown,60200000000,2082,3782,Gas Station,ATM Withdrawal,1
+434,Unknown,0,2083,3783,Scam Website,Online Purchase,1
+435,Unknown,60200000000,2084,3784,Online Retailer,Online Purchase,1
+436,Unknown,60200000000,2085,3785,Electronics Store,In-store Purchase,1
+437,Unknown,60200000000,2086,3786,Cafe,In-store Purchase,1
+438,Unknown,60200000000,2087,3787,Grocery Store,In-store Purchase,1
+439,Unknown,60200000000,2088,3788,Gas Station,ATM Withdrawal,1
+440,Unknown,0,2089,3789,Scam Website,Online Purchase,1
+441,Unknown,60200000000,2090,3790,Online Retailer,Online Purchase,1
+442,Unknown,60200000000,2091,3791,Electronics Store,In-store Purchase,1
+443,Unknown,60200000000,2092,3792,Cafe,In-store Purchase,1
+444,Unknown,60200000000,2093,3793,Grocery Store,In-store Purchase,1
+445,Unknown,60200000000,2094,3794,Gas Station,ATM Withdrawal,1
+446,Unknown,0,2095,3795,Scam Website,Online Purchase,1
+447,Unknown,60200000000,2096,3796,Online Retailer,Online Purchase,1
+448,Unknown,60200000000,2097,3797,Electronics Store,In-store Purchase,1
+449,Unknown,60200000000,2098,3798,Cafe,In-store Purchase,1
+450,Unknown,60200000000,2099,3799,Grocery Store,In-store Purchase,1
+451,Unknown,60200000000,2100,3800,Gas Station,ATM Withdrawal,1
+452,Unknown,0,2101,3801,Scam Website,Online Purchase,1
+453,Unknown,60200000000,2102,3802,Online Retailer,Online Purchase,1
+454,Unknown,60200000000,2103,3803,Electronics Store,In-store Purchase,1
+455,Unknown,60200000000,2104,3804,Cafe,In-store Purchase,1
+456,Unknown,60200000000,2105,3805,Grocery Store,In-store Purchase,1
+457,Unknown,60200000000,2106,3806,Gas Station,ATM Withdrawal,1
+458,Unknown,0,2107,3807,Scam Website,Online Purchase,1
+459,Unknown,60200000000,2108,3808,Online Retailer,Online Purchase,1
+460,Unknown,60200000000,2109,3809,Electronics Store,In-store Purchase,1
+461,Unknown,60200000000,2110,3810,Cafe,In-store Purchase,1
+462,Dubai,60200000000,2111,3811,Grocery Store,In-store Purchase,1
+463,Paris,60200000000,2112,3812,Gas Station,ATM Withdrawal,1
+464,Unknown,0,2113,3813,Scam Website,Online Purchase,1
+465,Buenos Aires,60200000000,2114,3814,Online Retailer,Online Purchase,1
+466,Cape Town,60200000000,2115,3815,Electronics Store,In-store Purchase,1
+467,Toronto,60200000000,2116,3816,Cafe,In-store Purchase,1
+468,Dubai,60200000000,2117,3817,Grocery Store,In-store Purchase,1
+469,Paris,60200000000,2118,3818,Gas Station,ATM Withdrawal,1
+470,Unknown,0,2119,3819,Scam Website,Online Purchase,1
+471,San Francisco,4.57E+11,60,2000,Grocery Store,In-store Purchase,0
+472,Paris,5.68E+11,61,2001,Bakery,In-store Purchase,0
+473,Tokyo,6.79E+11,62,2002,Clothing Store,In-store Purchase,0
+474,Sydney,7.89E+11,63,2003,Pharmacy,In-store Purchase,0
+475,London,8.90E+11,64,2004,Electronics Store,In-store Purchase,0
+476,New York,9.01E+11,65,2005,Coffee Shop,In-store Purchase,0
+477,Los Angeles,12345678901,66,2006,Restaurant,In-store Purchase,0
+478,Beijing,1.23E+11,67,2007,Supermarket,In-store Purchase,0
+479,Mumbai,2.35E+11,68,2008,Department Store,In-store Purchase,0
+480,Berlin,3.46E+11,69,2009,Convenience Store,In-store Purchase,0
+481,Rome,4.57E+11,70,2010,Bookstore,In-store Purchase,0
+482,Shanghai,5.68E+11,71,2011,Gas Station,In-store Purchase,0
+483,Moscow,6.79E+11,72,2012,Home Improvement Store,In-store Purchase,0
+484,Toronto,7.89E+11,73,2013,Fast Food,In-store Purchase,0
+485,Seoul,8.90E+11,74,2014,Electronics Store,In-store Purchase,0
+486,Barcelona,9.01E+11,75,2015,Bakery,In-store Purchase,0
+487,Istanbul,12345678901,76,2016,Pharmacy,In-store Purchase,0
+488,Sao Paulo,1.23E+11,77,2017,Clothing Store,In-store Purchase,0
+489,Mexico City,2.35E+11,78,2018,Coffee Shop,In-store Purchase,0
+490,Cairo,3.46E+11,79,2019,Restaurant,In-store Purchase,0
+491,Bangkok,4.57E+11,80,2020,Convenience Store,In-store Purchase,0
+492,Buenos Aires,5.68E+11,81,2021,Bookstore,In-store Purchase,0
+493,Jakarta,6.79E+11,82,2022,Supermarket,In-store Purchase,0
+494,Karachi,7.89E+11,83,2023,Gas Station,In-store Purchase,0
+495,Lagos,8.90E+11,84,2024,Department Store,In-store Purchase,0
+496,Delhi,9.01E+11,85,2025,Fast Food,In-store Purchase,0
+497,Manila,12345678901,86,2026,Home Improvement Store,In-store Purchase,0
+498,Rio de Janeiro,1.23E+11,87,2027,Pharmacy,In-store Purchase,0
+499,Lahore,2.35E+11,88,2028,Electronics Store,In-store Purchase,0
+500,Wuhan,3.46E+11,89,2029,Bakery,In-store Purchase,0
+501,Dhaka,4.57E+11,90,2030,Coffee Shop,In-store Purchase,0
+502,Osaka,5.68E+11,91,2031,Restaurant,In-store Purchase,0
+503,Kolkata,6.79E+11,92,2032,Convenience Store,In-store Purchase,0
+504,Cairo,7.89E+11,93,2033,Bookstore,In-store Purchase,0
+505,Tehran,8.90E+11,94,2034,Clothing Store,In-store Purchase,0
+506,Mumbai,9.01E+11,95,2035,Grocery Store,In-store Purchase,0
+507,Bangkok,12345678901,96,2036,Gas Station,In-store Purchase,0
+508,Istanbul,1.23E+11,97,2037,Department Store,In-store Purchase,0
+509,Lagos,2.35E+11,98,2038,Coffee Shop,In-store Purchase,0
+510,Rio de Janeiro,3.46E+11,99,2039,Electronics Store,In-store Purchase,0
+511,Manila,4.57E+11,100,2040,Bakery,In-store Purchase,0
+512,Wuhan,5.68E+11,101,2041,Pharmacy,In-store Purchase,0
+513,Dhaka,6.79E+11,102,2042,Fast Food,In-store Purchase,0
+514,Osaka,7.89E+11,103,2043,Home Improvement Store,In-store Purchase,0
+515,Kolkata,8.90E+11,104,2044,Bookstore,In-store Purchase,0
+516,Tehran,9.01E+11,105,2045,Clothing Store,In-store Purchase,0
+517,Mumbai,12345678901,106,2046,Grocery Store,In-store Purchase,0
+518,Bangkok,1.23E+11,107,2047,Gas Station,In-store Purchase,0
+519,Istanbul,2.35E+11,108,2048,Department Store,In-store Purchase,0
+520,Lagos,3.46E+11,109,2049,Coffee Shop,In-store Purchase,0
+521,Rio de Janeiro,4.57E+11,110,2050,Electronics Store,In-store Purchase,0
+522,Manila,5.68E+11,111,2051,Bakery,In-store Purchase,0
+523,Wuhan,6.79E+11,112,2052,Pharmacy,In-store Purchase,0
+524,Dhaka,7.89E+11,113,2053,Fast Food,In-store Purchase,0
+525,Osaka,8.90E+11,114,2054,Home Improvement Store,In-store Purchase,0
+526,Kolkata,9.01E+11,115,2055,Bookstore,In-store Purchase,0
+527,Tehran,12345678901,116,2056,Clothing Store,In-store Purchase,0
+528,Mumbai,1.23E+11,117,2057,Grocery Store,In-store Purchase,0
+529,Bangkok,2.35E+11,118,2058,Gas Station,In-store Purchase,0
+530,Istanbul,3.46E+11,119,2059,Department Store,In-store Purchase,0
+531,Lagos,4.57E+11,120,2060,Coffee Shop,In-store Purchase,0
+532,Rio de Janeiro,5.68E+11,121,2061,Electronics Store,In-store Purchase,0
+533,Manila,6.79E+11,122,2062,Bakery,In-store Purchase,0
+534,Wuhan,7.89E+11,123,2063,Pharmacy,In-store Purchase,0
+535,Dhaka,8.90E+11,124,2064,Fast Food,In-store Purchase,0
+536,Osaka,9.01E+11,125,2065,Home Improvement Store,In-store Purchase,0
+537,Kolkata,12345678901,126,2066,Bookstore,In-store Purchase,0
+538,Tehran,1.23E+11,127,2067,Clothing Store,In-store Purchase,0
+539,Mumbai,2.35E+11,128,2068,Grocery Store,In-store Purchase,0
+540,Bangkok,3.46E+11,129,2069,Gas Station,In-store Purchase,0
+541,Istanbul,4.57E+11,130,2070,Department Store,In-store Purchase,0
+542,Lagos,5.68E+11,131,2071,Coffee Shop,In-store Purchase,0
+543,Rio de Janeiro,6.79E+11,132,2072,Electronics Store,In-store Purchase,0
+544,Manila,7.89E+11,133,2073,Bakery,In-store Purchase,0
+545,Wuhan,8.90E+11,134,2074,Pharmacy,In-store Purchase,0
+546,Tokyo,9.01235E+11,70,2000,Coffee Shop,In-store Purchase,0
+547,Sydney,12345678901,71,2001,Bakery,In-store Purchase,0
+548,London,1.23457E+11,72,2002,Department Store,In-store Purchase,0
+549,New York,2.34568E+11,73,2003,Grocery Store,In-store Purchase,0
+550,Los Angeles,3.45679E+11,74,2004,Restaurant,In-store Purchase,0
+551,Beijing,4.56789E+11,75,2005,Clothing Store,In-store Purchase,0
+552,Mumbai,5.6789E+11,76,2006,Electronics Store,In-store Purchase,0
+553,Paris,6.78901E+11,77,2007,Pharmacy,In-store Purchase,0
+554,Seoul,7.89012E+11,78,2008,Gas Station,In-store Purchase,0
+555,Moscow,8.90123E+11,79,2009,Convenience Store,In-store Purchase,0
+556,Bangkok,9.01235E+11,80,2010,Bookstore,In-store Purchase,0
+557,Istanbul,12345678901,81,2011,Supermarket,In-store Purchase,0
+558,Mexico City,1.23457E+11,82,2012,Home Improvement Store,In-store Purchase,0
+559,Jakarta,2.34568E+11,83,2013,Fast Food,In-store Purchase,0
+560,Cairo,3.45679E+11,84,2014,Bakery,In-store Purchase,0
+561,Buenos Aires,4.56789E+11,85,2015,Coffee Shop,In-store Purchase,0
+562,Lagos,5.6789E+11,86,2016,Restaurant,In-store Purchase,0
+563,Delhi,6.78901E+11,87,2017,Grocery Store,In-store Purchase,0
+564,Shanghai,7.89012E+11,88,2018,Clothing Store,In-store Purchase,0
+565,Sao Paulo,8.90123E+11,89,2019,Electronics Store,In-store Purchase,0
+566,Karachi,9.01235E+11,90,2020,Pharmacy,In-store Purchase,0
+567,Manila,12345678901,91,2021,Gas Station,In-store Purchase,0
+568,Seoul,1.23457E+11,92,2022,Convenience Store,In-store Purchase,0
+569,Lagos,2.34568E+11,93,2023,Bookstore,In-store Purchase,0
+570,Mumbai,3.45679E+11,94,2024,Supermarket,In-store Purchase,0
+571,Mexico City,4.56789E+11,95,2025,Home Improvement Store,In-store Purchase,0
+572,Jakarta,5.6789E+11,96,2026,Fast Food,In-store Purchase,0
+573,Cairo,6.78901E+11,97,2027,Bakery,In-store Purchase,0
+574,Buenos Aires,7.89012E+11,98,2028,Coffee Shop,In-store Purchase,0
+575,Lagos,8.90123E+11,99,2029,Restaurant,In-store Purchase,0
+576,Delhi,9.01235E+11,100,2030,Grocery Store,In-store Purchase,0
+577,Shanghai,12345678901,101,2031,Clothing Store,In-store Purchase,0
+578,Sao Paulo,1.23457E+11,102,2032,Electronics Store,In-store Purchase,0
+579,Karachi,2.34568E+11,103,2033,Pharmacy,In-store Purchase,0
+580,Manila,3.45679E+11,104,2034,Gas Station,In-store Purchase,0
+581,Seoul,4.56789E+11,105,2035,Convenience Store,In-store Purchase,0
+582,Lagos,5.6789E+11,106,2036,Bookstore,In-store Purchase,0
+583,Mumbai,6.78901E+11,107,2037,Supermarket,In-store Purchase,0
+584,Mexico City,7.89012E+11,108,2038,Home Improvement Store,In-store Purchase,0
+585,Jakarta,8.90123E+11,109,2039,Fast Food,In-store Purchase,0
+586,Cairo,9.01235E+11,110,2040,Bakery,In-store Purchase,0
+587,Buenos Aires,12345678901,111,2041,Coffee Shop,In-store Purchase,0
+588,Lagos,1.23457E+11,112,2042,Restaurant,In-store Purchase,0
+589,Delhi,2.34568E+11,113,2043,Grocery Store,In-store Purchase,0
+590,Shanghai,3.45679E+11,114,2044,Clothing Store,In-store Purchase,0
+591,Sao Paulo,4.56789E+11,115,2045,Electronics Store,In-store Purchase,0
+592,Karachi,5.6789E+11,116,2046,Pharmacy,In-store Purchase,0
+593,Manila,6.78901E+11,117,2047,Gas Station,In-store Purchase,0
+594,Seoul,7.89012E+11,118,2048,Convenience Store,In-store Purchase,0
+595,Lagos,8.90123E+11,119,2049,Bookstore,In-store Purchase,0
+596,Mumbai,9.01235E+11,120,2050,Supermarket,In-store Purchase,0
+597,Mexico City,12345678901,121,2051,Home Improvement Store,In-store Purchase,0
+598,Jakarta,1.23457E+11,122,2052,Fast Food,In-store Purchase,0
+599,Cairo,2.34568E+11,123,2053,Bakery,In-store Purchase,0
+600,Buenos Aires,3.45679E+11,124,2054,Coffee Shop,In-store Purchase,0
